@@ -1,0 +1,6 @@
+use_frameworks!
+target 'XiaoHongShuOpenSDK_Tests' do
+  pod 'XiaoHongShuOpenSDK', :path => '../'
+  
+  
+end
