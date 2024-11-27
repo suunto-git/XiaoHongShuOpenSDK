@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'liang.li' => '895176298@qq.com' }
   s.source           = { :git => 'https://github.com/suunto-git/XiaoHongShuOpenSDK.git', :tag => "#{s.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
- s.vendored_frameworks = "XiaoHongShuOpenSDK"
+  s.vendored_frameworks = "XiaoHongShuOpenSDK.framework"
   s.ios.deployment_target = '10.0'
 
   #s.source_files = 'XiaoHongShuOpenSDK/Classes/**/*'
