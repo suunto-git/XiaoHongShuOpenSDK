@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XiaoHongShuOpenSDK'
   s.version          = '1.2.18'
-  s.summary          = 'Due to XiaoHongShuOpenSDK neither support cocoapods nor SPM from offical document. only a framework is available so we did this rep. to reduce the size of the package by removed the framework library support for the simulator.'
+  s.summary          = 'XiaoHongShuOpenSDk iOS'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,12 +25,12 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liang.li' => '895176298@qq.com' }
-  s.source           = { :git => 'https://github.com/liang.li/XiaoHongShuOpenSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/suunto-git/XiaoHongShuOpenSDK.git', :tag => "#{spec.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+ spec.vendored_frameworks = "XiaoHongShuOpenSDK"
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'XiaoHongShuOpenSDK/Classes/**/*'
+  #s.source_files = 'XiaoHongShuOpenSDK/Classes/**/*'
   
   # s.resource_bundles = {
   #   'XiaoHongShuOpenSDK' => ['XiaoHongShuOpenSDK/Assets/*.png']
