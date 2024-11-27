@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liang.li' => '895176298@qq.com' }
-  s.source           = { :git => 'https://github.com/suunto-git/XiaoHongShuOpenSDK.git', :tag => "#{spec.version}" }
+  s.source           = { :git => 'https://github.com/suunto-git/XiaoHongShuOpenSDK.git', :tag => "#{s.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
  spec.vendored_frameworks = "XiaoHongShuOpenSDK"
   s.ios.deployment_target = '10.0'
