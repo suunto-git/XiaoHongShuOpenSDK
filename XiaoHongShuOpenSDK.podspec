@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XiaoHongShuOpenSDK'
-  s.version          = '1.2.18'
+  s.version          = '1.2.18.1'
   s.summary          = 'XiaoHongShuOpenSDk iOS'
   s.description      = 'Includes the following XiaoHongShu features: Share videos and photo to XiaoHongShu'
 
@@ -26,8 +26,5 @@ Pod::Spec.new do |s|
     'OTHER_LDFLAGS' => '-ObjC -all_load',
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
   }
- s.user_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-  } 
 
 end
